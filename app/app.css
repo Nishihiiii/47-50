@@ -1,0 +1,45 @@
+@import url('https://googleapis.com');
+@import "tailwindcss";
+
+html,
+body {
+  background-color: #FDFBF7;
+  color: #2D1F18;
+  font-family:
+    "Plus Jakarta Sans",
+    system-ui,
+    -apple-system,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  html,
+  body {
+    color-scheme: dark;
+  }
+}
+
+h1, h2, h3, .restaurant-title {
+  font-family: "Cormorant Garamond", "Times New Roman", serif !important;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+@theme {
+  --color-tom-thumb-50: #fdfbf7;
+  --color-tom-thumb-100: #f5eedf;
+  --color-tom-thumb-200: #e6d3b8;
+  --color-tom-thumb-400: #c59b67;
+  --color-tom-thumb-600: #6e6259;
+  --color-tom-thumb-700: #2d1f18;
+  --color-tom-thumb-800: #1a110c;
+  --color-tom-thumb-900: #0d0806;
+
+  --font-serif: "Cormorant Garamond", "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
